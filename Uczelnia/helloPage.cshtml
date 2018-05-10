@@ -5,5 +5,11 @@
 </head>
 <body>
     <p>Hello World form @Server.MachineName</p>
+    @{ 
+        string login = Request["login"];
+        string password = Request["pass"];
+        <p>login: @login</p>
+        <p>password: @password</p>
+    }
 </body>
 </html>
