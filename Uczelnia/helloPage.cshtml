@@ -1,9 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Main Page</title>
 </head>
 <body>
+    <!-- wczytujemy zawartosc strony index.html -->
+    @Html.Raw(File.ReadAllText(Server.MapPath("~/index.html")))
     <p>Hello World form @Server.MachineName</p>
     @{ 
         string login = Request["login"];

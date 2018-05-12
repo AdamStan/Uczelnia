@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uczelnia", "Uczelnia\Uczelnia.csproj", "{C1E83AE6-2CC4-4698-9BFE-50965C06DB8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncjeUczelnii", "EncjeUczelnii\EncjeUczelnii.csproj", "{17C4FD33-CDB2-4742-B3B1-348D72DD8E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestowanieNHibernate", "TestowanieNHibernate\TestowanieNHibernate.csproj", "{AD9733D6-24BF-4785-8940-D253705A31B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C1E83AE6-2CC4-4698-9BFE-50965C06DB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E83AE6-2CC4-4698-9BFE-50965C06DB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E83AE6-2CC4-4698-9BFE-50965C06DB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C4FD33-CDB2-4742-B3B1-348D72DD8E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C4FD33-CDB2-4742-B3B1-348D72DD8E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C4FD33-CDB2-4742-B3B1-348D72DD8E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C4FD33-CDB2-4742-B3B1-348D72DD8E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9733D6-24BF-4785-8940-D253705A31B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9733D6-24BF-4785-8940-D253705A31B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9733D6-24BF-4785-8940-D253705A31B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9733D6-24BF-4785-8940-D253705A31B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

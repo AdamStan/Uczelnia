@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="EncjeUczelnii" assembly="EncjeUczelnii" >
+  <class name="Tutor" table="Tutors" lazy="false"> 
+    <id name="id"> 
+      <generator class="native" /> 
+    </id>             
+    <property name="name" column="t_name"/> 
+    <property name="surname" column="surname"/> 
+    <property name="postCode" column="post_code"/>
+    <property name="street" column="street"/>
+    <property name="number" column="number"/>
+    <property name="username" column="username"/>
+    <property name="password" column="password"/>
+  </class> 
+</hibernate-mapping>
